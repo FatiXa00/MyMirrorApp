@@ -33,6 +33,8 @@
 		04FDF9582E9F0BA800783011 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF9572E9F0BA800783011 /* ExerciseDetailView.swift */; };
 		04FDF95B2E9F0D4C00783011 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF95A2E9F0D4C00783011 /* StoreManager.swift */; };
 		04FDF95E2E9F0D8F00783011 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF95D2E9F0D8F00783011 /* PaywallView.swift */; };
+		04FDF9622E9FFC5700783011 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FDF9612E9FFC5700783011 /* home.png */; };
+		04FDF9662E9FFD1800783011 /* face yoga.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FDF9652E9FFD1800783011 /* face yoga.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		04FDF95A2E9F0D4C00783011 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
 		04FDF95D2E9F0D8F00783011 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		04FDF95F2E9F0E5900783011 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = Products.storekit; path = Mirror/Products.storekit; sourceTree = SOURCE_ROOT; };
+		04FDF9612E9FFC5700783011 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		04FDF9652E9FFD1800783011 /* face yoga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face yoga.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		04FDF90F2E9F02FC00783011 /* Mirror */ = {
 			isa = PBXGroup;
 			children = (
+				04FDF9602E9FFC3900783011 /* screenshots */,
 				04FDF9212E9F032400783011 /* Core */,
 				04FDF9202E9F030E00783011 /* App */,
 				04FDF9242E9F035300783011 /* Resources */,
@@ -287,6 +292,15 @@
 			path = Paywall;
 			sourceTree = "<group>";
 		};
+		04FDF9602E9FFC3900783011 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				04FDF9652E9FFD1800783011 /* face yoga.png */,
+				04FDF9612E9FFC5700783011 /* home.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -347,6 +361,8 @@
 			files = (
 				04FDF91A2E9F030000783011 /* Preview Assets.xcassets in Resources */,
 				04FDF9172E9F030000783011 /* Assets.xcassets in Resources */,
+				04FDF9622E9FFC5700783011 /* home.png in Resources */,
+				04FDF9662E9FFD1800783011 /* face yoga.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
